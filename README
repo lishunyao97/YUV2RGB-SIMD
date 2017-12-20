@@ -1,0 +1,9 @@
+original文件夹中是基准代码，MMX,SSE2,AVX文件夹中分别是优化后的代码。
+每个文件夹内代码运行的方式相同。
+对于单幅图像渐变，
+sh blend.sh
+运行结果为alpha_blending.yuv
+
+对于两幅图像叠加，
+sh mix.sh
+运行结果为alpha_mixing.yuv
